@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- HERDER STARTS HERE -->
+    <header>
+        <div class="hamburger-container">
+            <a href="#" id="logo">Awesome Books</a>
+            <div class="hamburger">
+                <i class="bi bi-list" id="closeButton"></i>
+            </div>
+        </div>
+        <nav class="nav">
+            <ul class="menu-items">
+                <li id="list">List |</li>
+                <li id="form">Add new |</li>
+                <li id="contact">Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- HEADER ENDS HERE -->
+
+    <!-- DATE AND TIME START HERE -->
+    <div class="date-time">
+        <span id="date-time"></span>
+    </div>
+    <!-- DATE AND TIME END HERE -->
+
+    <!-- DISPLAY ALL AWESOME BOOKS START HERE -->
+    <section class="display-books">
+        <h1 class="header">All Awesome Books</h1>
+        <div id="books">
+        </div>
+    </section>
+    <!-- DISPLAY ALL AWESOME BOOKS END HERE -->
+
+    <!-- ADD A NEW BOOK STARTS HERE -->
+    <section class="form-section hide">
+        <span class="message"></span>
+        <form class="form" method="POST">
+            <h2>Add a new book</h2>
+            <input type="text" placeholder="Title" id="title">
+            <input type="text" placeholder="Author" id="author">
+            <button id="addBook" type="submit">Add</button>
+        </form>
+    </section>
+    <!-- ADD A NEW BOOK ENDS HERE -->
+
+    <!-- CONTACT INFORMATION STARTS HERE -->
+    <section class="contact-section hide">
+        <h2>Contact information</h2>
+        <p>Do have any questions or you just want to say "Hello"?</p>
+        <p>You can reach out to us!</p>
+        <ul>
+            <li>Our e-main: zohra.neda@gmail.com</li>
+            <li>Our phone number: +93 796897045</li>
+            <li>Our address: Kabul University, Kabul City, Afghanistan</li>
+        </ul>
+    </section>
+    <!-- CONTACT INFORMATION ENDS HERE -->
+
+    <!-- FOOTER STARTS HERE -->
+    <footer>
+        <p>Copyright ..</p>
+    </footer>
+    <!-- FOOTER ENDS HERE -->
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
