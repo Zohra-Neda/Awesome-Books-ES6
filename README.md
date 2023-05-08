@@ -69,7 +69,6 @@ After you're finished please remove all the comments and instructions!
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML5</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS3</a></li>
@@ -91,9 +90,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Add it soon
-
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://zohra-neda.github.io/Awesome-Books-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,7 +151,6 @@ github pages
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author**
 
