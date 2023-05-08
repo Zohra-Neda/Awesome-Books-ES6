@@ -1,0 +1,251 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  height: auto;
+  overflow-x: hidden;
+  font-family: 'comic Sans MS', sans-serif;
+}
+
+#logo {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 28px;
+}
+
+.menu-items {
+  display: flex;
+  padding: 1rem;
+  font-size: 18px;
+  list-style-type: none;
+}
+
+.menu-items li {
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border: 3px solid #000;
+  background-color: #fff;
+}
+
+.date-time {
+  position: absolute;
+  right: 17px;
+  margin-bottom: 1rem;
+  top: 80px;
+  font-size: 16px;
+}
+
+.contact-section {
+  font-size: 18px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#addBook {
+  width: 20%;
+  align-self: flex-end;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+
+input {
+  font-size: 16px;
+  padding: 8px 8px;
+  margin-top: 1rem;
+  border: 2px solid #000;
+}
+
+.message {
+  text-align: center;
+}
+
+#books {
+  width: 100%;
+  border: 3px solid #000;
+  min-height: 50px;
+}
+
+.books-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: #ddd;
+  padding: 0 20px;
+}
+
+.books-container:nth-child(2n) {
+  background-color: #fff;
+}
+
+.book-item {
+  display: flex;
+  gap: 1rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.header {
+  text-align: center;
+}
+
+button {
+  background-color: #fff;
+  cursor: pointer;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 6px solid #000;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+}
+
+.display-books,
+.form-section,
+.contact-section {
+  margin-top: 6rem;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .display-books {
+    width: 90%;
+  }
+
+  button {
+    font-size: 13px;
+    margin: 10px 0;
+    padding: 0 5px;
+    align-self: flex-end;
+  }
+
+  .books-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .book-item-name {
+    margin: 10px 0 0;
+  }
+
+  .book-item-author {
+    margin: 10px 0 0;
+  }
+
+  .form-section {
+    width: 50%;
+  }
+
+  .contact-section {
+    width: 90%;
+  }
+
+  .hamburger {
+    cursor: pointer;
+  }
+
+  .bi-list {
+    width: 10%;
+    cursor: pointer;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 272px;
+  }
+
+  .bi-x {
+    width: 10%;
+    cursor: pointer;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 272px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .hamburger-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    transform: translateX(-500px);
+    transition: transform 0.4s ease-in-out;
+  }
+
+  nav.active {
+    transform: translateX(0);
+  }
+
+  .menu-items li {
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .form-section {
+    width: 30%;
+  }
+
+  .display-books {
+    width: 50%;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+    height: 60px;
+  }
+
+  .menu-items li {
+    padding: 1rem;
+  }
+}
+
+footer {
+  position: fixed;
+  font-size: 18px;
+  width: 98%;
+  bottom: 3px;
+  border: 3px solid black;
+  height: 60px;
+}
+
+footer p {
+  margin-left: 2rem;
+}
